@@ -1,101 +1,42 @@
-# StudentskiDenar — POST_READY.md
+# StudentskiDenar — POST_READY
 
-## Status: ✅ 100% COPY-AND-POST READY
+## ✅ Post-worthy: YES (redesigned 2026-06-14)
 
----
+## Attach this file first
+`promo/images/01-square-post.png`  →  Instagram / LinkedIn feed
 
-## Best Image to Post First
-`promo/images/01-square-post.png` (1080x1080)
+## Best image to post first
+`promo/images/01-square-post.png`
 
-## Screenshots Used
-- `audit/screenshots/final-ready/StudentskiDenar/01-desktop.png` (real app screenshot)
-- `audit/screenshots/final-ready/StudentskiDenar/02-main.png`
-- `audit/screenshots/final-ready/StudentskiDenar/03-mobile.png`
+**Why it's the strongest:** The recaptured budget dashboard ("Pregled meseca": balance, survival mode, income/expense split, categories) shows the product doing real work — far stronger than the old empty onboarding form.
 
-## Promo Image Files
-| File | Size | Use For |
-|------|------|---------|
-| `promo/images/01-square-post.png` | 1080×1080 | Instagram, LinkedIn post |
-| `promo/images/02-story-reel-cover.png` | 1080×1920 | IG/TikTok story |
-| `promo/images/03-linkedin-banner.png` | 1600×900 | LinkedIn banner |
-| `promo/images/04-github-preview.png` | 1280×720 | GitHub social preview |
-| `promo/images/05-feature-card.png` | 1200×1200 | Product Hunt |
+## Recommended platform order
+Instagram → LinkedIn → student communities → X
 
----
-
-## Exact Copy-Paste Caption
-
+## Exact caption (copy–paste)
 ```
-Built a budget tracker for students — StudentskiDenar 💰
+Budgeting built for student life. 🎓
 
-Tracking student spending is painful. Spreadsheets are boring. Most apps cost money.
+Studentski Denar shows your whole month at a glance — set it up in 60 seconds, get a daily spend limit and survival mode, track every category. 100% in your browser.
 
-So I built one: free, open-source, fast.
-
-Features:
-→ Track income and expenses by category
-→ See where your money actually goes
-→ Supabase backend (real-time sync)
-→ Built with React 19 + TypeScript
-
-Free to use. Open source. GitHub link in bio.
-
-#student #budgeting #personalfinance #webdev #react #buildinpublic #opensource #flegartech
+#students #budgeting #reactjs #personalfinance #buildinpublic
 ```
 
----
+## All 5 assets
+| File | Use for |
+|------|---------|
+| `promo/images/01-square-post.png` | 1080×1080 — Instagram / LinkedIn feed |
+| `promo/images/02-story-reel-cover.png` | 1080×1920 — IG / TikTok story & reel cover |
+| `promo/images/03-linkedin-banner.png` | 1600×900 — LinkedIn feature / X / YouTube |
+| `promo/images/04-github-preview.png` | 1280×720 — GitHub social preview |
+| `promo/images/05-feature-card.png` | 1200×1200 — Product Hunt / feature card |
 
-## Hashtags
-```
-#student #budget #personalfinance #moneymanagement #webdev #react #typescript #supabase #buildinpublic #opensource #flegartech
-```
+## Screenshot used
+final-ready/StudentskiDenar/04-dashboard-real.png — NEW real dashboard with data
 
-## Suggested Platforms (in order)
-1. Instagram (student audience is there)
-2. TikTok
-3. Twitter/X
-4. LinkedIn
-
----
-
-## Safe Public Claims
-- "Budget tracker for students"
-- "Track income and expenses by category"
-- "Supabase backend"
-- "React 19 + TypeScript"
-- "Free, open source"
-
-## Claims to AVOID
-- Avoid financial advice framing
-- Avoid "save money" guarantee claims
-- Avoid implying it's a bank or financial institution
-
----
-
-## 15-Second Video Script
-> "StudentskiDenar — a free budget tracker for students.
-> Add income, track expenses, see where your money goes.
-> Built with React and Supabase. Open source.
-> GitHub link in bio."
-
-## 30-Second Demo Script
-> "StudentskiDenar is a free budget tracker I built for students.
-> Add your income — part-time job, stipend, whatever.
-> Then log expenses by category: food, rent, transport, fun.
-> The dashboard shows your balance and a breakdown of spending.
-> Built with React 19, TypeScript, and Supabase for real-time sync.
-> Fully responsive on mobile. Free, no subscription, open source.
-> GitHub link in bio."
-
----
-
-## Promo Image Review
-- [x] All 5 images exist
-- [x] All correct sizes
-- [x] Real screenshot embedded
-- [x] No private information visible
+## QC checklist
+- [x] All 5 images exist at the correct sizes
+- [x] Real product screenshot used (no faked UI)
+- [x] Clean browser-frame composition, high-contrast readable text
+- [x] Unified FlegarTech brand (dark canvas + green accent)
 - [x] No fake claims
-- [x] Text readable
-- [x] Professional quality
-
-## Final Ready Status: ✅ COPY-AND-POST READY
