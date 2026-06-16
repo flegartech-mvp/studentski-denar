@@ -8,6 +8,9 @@ export default defineConfig({
   use: {
     baseURL: 'http://127.0.0.1:4173',
     trace: 'on-first-retry',
+    // Unset -> bundled chromium (CI). Set PW_CHANNEL=chrome to use system Chrome
+    // on platforms where Playwright has no prebuilt chromium binary.
+    channel: process.env.PW_CHANNEL,
   },
   webServer: {
     command: 'npm run preview -- --host 127.0.0.1 --port 4173',
