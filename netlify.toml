@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# App uses hash-based routing (#view), so no SPA redirect is required —
+# the server only ever serves "/". The service worker must not be cached so
+# clients pick up new builds.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
