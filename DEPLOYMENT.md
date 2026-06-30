@@ -18,6 +18,7 @@ Node: 22+ (CI), verified on 24. Output: `dist`.
 ## Routing & PWA
 - **Hash routing** (`#view`): the server only serves `/`, so **no SPA rewrite is needed**.
 - Service worker at `/sw.js` (registered only in production). Both `vercel.json` and `netlify.toml` set `Cache-Control: no-cache` on `/sw.js` so clients pick up new builds.
+- Web app manifest at `/manifest.webmanifest` (installable PWA, `theme-color` and `lang="sl"` set in `index.html`).
 
 ## Vercel / Netlify
 Config files included (`vercel.json`, `netlify.toml`): framework `vite`, build `npm run build`, output/publish `dist`. Import the repo and deploy.
@@ -35,6 +36,8 @@ The app runs fully offline with none set. Every var is `VITE_`-prefixed and bund
 ## Security notes
 - Audit is clean (`npm audit` → 0 vulnerabilities; a dev-only Vite/launch-editor advisory was patched via `npm audit fix`).
 - Licence verification uses a **public** key only; the private signing key lives outside the repo (`scripts/generate-keypair.mjs`).
+- Security headers are sent on every response from both `vercel.json` and `netlify.toml`: `Content-Security-Policy` (self + `*.supabase.co` for sync), `X-Content-Type-Options`, `X-Frame-Options: DENY`, `Referrer-Policy`, `Permissions-Policy`, and HSTS. Tighten the CSP `connect-src` to your exact Supabase project URL if you want to be stricter.
+- The CI workflow pins actions to commit SHAs, drops `persist-credentials`, and runs with `permissions: contents: read`.
 
 ## Known limitations
 - Production bundle is a single ~140 kB gzip chunk (Vite warns >500 kB raw). Functional but could be code-split later; not a release blocker.

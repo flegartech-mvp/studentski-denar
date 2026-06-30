@@ -23,7 +23,7 @@ export function supporterStatusLabel(status: SupporterStatus) {
     case 'active':
       return 'Aktiven supporter'
     case 'expiring_soon':
-      return 'Kmalu potece'
+      return 'Kmalu poteče'
     case 'expired':
       return 'Poteklo'
     case 'pending':

@@ -75,7 +75,7 @@ test('supporter pending and active states remain available in local fallback mod
   await openAuth(page, 'supporter')
   await page.getByTestId('skip-onboarding').click()
   await expect(page.getByTestId('supporter-page')).toContainText('Free uporabnik')
-  await page.getByRole('button', { name: /Oznaci kot poslano/ }).click()
+  await page.getByRole('button', { name: /Označi kot poslano/ }).click()
   await expect(page.getByTestId('supporter-page')).toContainText('V preverjanju')
 })
 

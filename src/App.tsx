@@ -83,7 +83,7 @@ const navItems: { id: View; label: string; icon: typeof Wallet }[] = [
   { id: 'supporter', label: 'Supporter', icon: HeartHandshake },
   { id: 'privacy', label: 'Zasebnost', icon: ShieldCheck },
   { id: 'settings', label: 'Nastavitve', icon: Settings },
-  { id: 'profile', label: 'Racun', icon: UserCircle },
+  { id: 'profile', label: 'Račun', icon: UserCircle },
 ]
 const validViews = new Set<View>([
   ...navItems.map((item) => item.id),

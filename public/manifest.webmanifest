@@ -1,0 +1,20 @@
+{
+  "name": "Študentski Denar",
+  "short_name": "Štud. Denar",
+  "description": "Lokalni proračunski pripomoček za slovenske študente. Podatki ostanejo v brskalniku.",
+  "lang": "sl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f5ef",
+  "theme_color": "#127c5e",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    }
+  ]
+}

@@ -146,7 +146,7 @@ test('backup import/export, invalid backup, corrupted storage, supporter states,
   await page.goto('/#supporter')
   await page.getByTestId('skip-onboarding').click()
   await expect(page.getByTestId('supporter-page')).toContainText('Free uporabnik')
-  await page.getByRole('button', { name: /Oznaci kot poslano/ }).click()
+  await page.getByRole('button', { name: /Označi kot poslano/ }).click()
   await expect(page.getByTestId('supporter-page')).toContainText('V preverjanju')
   await page.locator('textarea[placeholder="sd1...."]').fill(activeLicense)
   await page.getByRole('button', { name: /Preveri licenco/ }).click()
